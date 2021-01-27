@@ -1,0 +1,3 @@
+SELECT ИмяПродукта.name, ИмяКатегории.name
+FROM ИмяПродукта LEFT JOIN  ИмяКатегории ON ИмяПродукта.name=ИмяКатегории.productName
+ORDER BY ИмяПродукта.name;
